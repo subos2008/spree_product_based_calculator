@@ -1,5 +1,5 @@
 Spree::Variant.class_eval do
-  attr_accessible :shipping_rate
+  #attr_accessible :shipping_rate
 
   def shipping_rate=(shipping_rate)
     if shipping_rate.present?

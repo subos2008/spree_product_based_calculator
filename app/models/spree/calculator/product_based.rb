@@ -2,7 +2,7 @@ module Spree
   class Calculator::ProductBased < Calculator
     preference :default_value, :decimal, :default => 0
   
-    attr_accessible :preferred_default_value
+    #attr_accessible :preferred_default_value
   
     def self.description
       I18n.t(:product_based)
